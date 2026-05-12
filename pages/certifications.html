@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Certifications</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">MyPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="education.html">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="certifications.html">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                            <i class="bi bi-moon-fill"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Certifications Section -->
+    <section class="py-5 mt-5" id="certifications">
+        <div class="container mt-5">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-5 fw-bold">Licenses & <span style="color: var(--primary-color);">Certifications</span></h2>
+                <p class="lead opacity-75">Professional courses and achievements</p>
+            </div>
+            
+            <div class="row g-4">
+                
+                <!-- Certificate 1 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="glass-card text-center h-100 d-flex flex-column align-items-center justify-content-center p-5">
+                        <i class="bi bi-award text-primary mb-3" style="font-size: 3rem;"></i>
+                        <h4 class="mb-2">Frontend Web Development</h4>
+                        <p class="text-muted mb-4 flex-grow-1">Coursera</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-custom mt-auto w-100" data-bs-toggle="modal" data-bs-target="#certModal1">
+                            View Certificate
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Certificate 2 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="glass-card text-center h-100 d-flex flex-column align-items-center justify-content-center p-5">
+                        <i class="bi bi-award text-primary mb-3" style="font-size: 3rem;"></i>
+                        <h4 class="mb-2">JavaScript Data Structures</h4>
+                        <p class="text-muted mb-4 flex-grow-1">freeCodeCamp</p>
+                        <button type="button" class="btn btn-outline-custom mt-auto w-100" data-bs-toggle="modal" data-bs-target="#certModal2">
+                            View Certificate
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Future Certificate Placeholder -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="glass-card text-center h-100 d-flex flex-column align-items-center justify-content-center p-5" style="border: 2px dashed var(--glass-border); opacity: 0.7;">
+                        <i class="bi bi-plus-circle text-muted mb-3" style="font-size: 3rem;"></i>
+                        <h4 class="mb-2 text-muted">More Coming Soon</h4>
+                        <p class="text-muted mb-0 flex-grow-1">Currently pursuing advanced certifications to add here.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals for Certificates -->
+    <!-- Modal 1 -->
+    <div class="modal fade" id="certModal1" tabindex="-1" aria-labelledby="certModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content" style="background-color: var(--bg-color); color: var(--text-color); border: 1px solid var(--glass-border);">
+                <div class="modal-header border-bottom-0">
+                    <h5 class="modal-title" id="certModal1Label">Frontend Web Development</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="filter: var(--bs-btn-close-color);"></button>
+                </div>
+                <div class="modal-body text-center p-4">
+                    <div class="p-5" style="border: 10px solid var(--primary-color); background: rgba(79, 70, 229, 0.05);">
+                        <h2 class="mb-4">Certificate of Completion</h2>
+                        <h3 class="text-primary mb-4">Jamuna</h3>
+                        <p class="lead mb-4">has successfully completed</p>
+                        <h4 class="mb-5">Frontend Web Development</h4>
+                        <p class="text-muted">Issued by: Coursera</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="certModal2" tabindex="-1" aria-labelledby="certModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content" style="background-color: var(--bg-color); color: var(--text-color); border: 1px solid var(--glass-border);">
+                <div class="modal-header border-bottom-0">
+                    <h5 class="modal-title" id="certModal2Label">JavaScript Data Structures</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="filter: var(--bs-btn-close-color);"></button>
+                </div>
+                <div class="modal-body text-center p-4">
+                    <div class="p-5" style="border: 10px solid var(--primary-color); background: rgba(79, 70, 229, 0.05);">
+                        <h2 class="mb-4">Certificate of Completion</h2>
+                        <h3 class="text-primary mb-4">Jamuna</h3>
+                        <p class="lead mb-4">has successfully completed</p>
+                        <h4 class="mb-5">JavaScript Data Structures</h4>
+                        <p class="text-muted">Issued by: freeCodeCamp</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p class="mb-0 opacity-75">&copy; 2026 Jamuna. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="../js/script.js"></script>
+</body>
+</html>
